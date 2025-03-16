@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-15T21:20:09 EDT" name="Default suite" finished-at="2025-03-15T21:20:13 EDT" duration-ms="3253">
+    <groups>
+    </groups>
+    <test started-at="2025-03-15T21:20:09 EDT" name="Default test" finished-at="2025-03-15T21:20:13 EDT" duration-ms="3253">
+      <class name="com.RestAssuredDay2.differentWaysToCreateRequestBody">
+        <test-method signature="testPostUsingExternaljsonfile()[pri:0, instance:com.RestAssuredDay2.differentWaysToCreateRequestBody@6b927fb]" started-at="2025-03-15T21:20:10 EDT" name="testPostUsingExternaljsonfile" finished-at="2025-03-15T21:20:12 EDT" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUsingExternaljsonfile -->
+        <test-method signature="testPostUsingHashMap()[pri:0, instance:com.RestAssuredDay2.differentWaysToCreateRequestBody@6b927fb]" started-at="2025-03-15T21:20:12 EDT" name="testPostUsingHashMap" finished-at="2025-03-15T21:20:12 EDT" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUsingHashMap -->
+        <test-method signature="testPostUsingJsonLib()[pri:0, instance:com.RestAssuredDay2.differentWaysToCreateRequestBody@6b927fb]" started-at="2025-03-15T21:20:12 EDT" name="testPostUsingJsonLib" finished-at="2025-03-15T21:20:12 EDT" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUsingJsonLib -->
+        <test-method signature="testPostUsingPojoClass()[pri:0, instance:com.RestAssuredDay2.differentWaysToCreateRequestBody@6b927fb]" started-at="2025-03-15T21:20:12 EDT" name="testPostUsingPojoClass" finished-at="2025-03-15T21:20:13 EDT" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUsingPojoClass -->
+      </class> <!-- com.RestAssuredDay2.differentWaysToCreateRequestBody -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
