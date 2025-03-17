@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Day5SeleniumTestNG.TestOrangeHRM">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+          <include name="LogoutFromTheApp"/>
+        </methods>
+      </class> <!-- com.Day5SeleniumTestNG.TestOrangeHRM -->
+      <class name="com.Day6Selenium.SeleniumActionClass">
+        <methods>
+          <include name="testseven"/>
+          <include name="openApp"/>
+          <include name="testhuit"/>
+        </methods>
+      </class> <!-- com.Day6Selenium.SeleniumActionClass -->
+      <class name="com.Day7SeleniumTestNG.TestNGAssertion">
+        <methods>
+          <include name="testSoftAssert"/>
+          <include name="testHardAssert"/>
+          <include name="testHardAssert2"/>
+        </methods>
+      </class> <!-- com.Day7SeleniumTestNG.TestNGAssertion -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

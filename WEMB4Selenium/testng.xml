@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Day7SeleniumTestNG.TestNGAssertion"/>
+      <class name="com.Day6Selenium.SeleniumActionClass"/>
+      <class name="com.Day5SeleniumTestNG.TestOrangeHRM"/>
+      <class name="com.Day5SeleniumTestNG.AnnotationTestNG"/>
+      <class name="com.Day5SeleniumTestNG.FirstTC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
